@@ -1,0 +1,14 @@
+
+defaults:
+  recency_days: 30
+  rounds: 2
+  max_sources: 12
+  safety_mode: true
+search:
+  provider: brave
+models:
+  provider: openai
+  model_name: gpt-4o-mini
+security:
+  denylist_domains: ["pastebin.com", "githubusercontent.com", "ipfs.io"]
+  allowlist_domains: []

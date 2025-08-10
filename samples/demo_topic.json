@@ -1,0 +1,27 @@
+
+{
+  "topic": "vector databases",
+  "results": [
+    {
+      "title": "Vector DB round-up: performance & cost tradeoffs",
+      "url": "https://example.com/vector-roundup",
+      "snippet": "A comparative review of Pinecone, Weaviate, Qdrant, and pgvector with recall vs. latency curves.",
+      "published_at": "2025-07-15T12:00:00",
+      "source": "example.com"
+    },
+    {
+      "title": "Weaviate adds hybrid search improvements",
+      "url": "https://example.com/weaviate-hybrid",
+      "snippet": "Hybrid BM25+vector search improves relevance on sparse queries.",
+      "published_at": "2025-07-28T10:00:00",
+      "source": "example.com"
+    },
+    {
+      "title": "Qdrant introduces quantization features",
+      "url": "https://example.com/qdrant-quant",
+      "snippet": "New product quantization reduces memory footprint by 4x with minimal recall loss.",
+      "published_at": "2025-08-02T08:00:00",
+      "source": "example.com"
+    }
+  ]
+}
