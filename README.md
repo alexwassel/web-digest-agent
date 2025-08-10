@@ -16,15 +16,15 @@ streamlit run app.py
 
 ## Demo Mode
 When enabled, the app:
-Skips all API calls (no OpenAI, Anthropic, or Brave Search usage).
-Generates on-topic fake search results and a sample digest based on the topic you enter.
-Defaults to a generic digest if no topic is provided.
-Keeps the same UI flow as live mode — you can still download .md and .pdf files.
+- Skips all API calls (no OpenAI, Anthropic, or Brave Search usage).
+- Generates on-topic fake search results and a sample digest based on the topic you enter.
+- Defaults to a generic digest if no topic is provided.
+- Keeps the same UI flow as live mode — you can still download .md and .pdf files.
 
 
 ## PDF Export (no native deps)
-PDF export uses ReportLab (pure Python - easier for cloning and quick testing) — no Homebrew/GTK/Pango/Cairo required.
-Click “Download .pdf” after the digest is generated.
+- PDF export uses ReportLab (pure Python - easier for cloning and quick testing) — no Homebrew/GTK/Pango/Cairo required.
+- Click “Download .pdf” after the digest is generated.
 
 ## Features
 - Streamlit UI: topic, recency (7/14/30/60/90d), rounds (1–3), source cap, safety mode
